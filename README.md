@@ -1,12 +1,13 @@
-# Create a chat dApp using Solidity and ReactJS
+Step to run the program : 
+	Step 1: Pull the folder from the Provided link
+	Step 2: Replace 'YOUR LINK HERE' with the local host by running the following commands
+		Step 2.1: /period-tracker/src/ npm start
+		Step 2.2: Replace the local host link at the period tracker button
+		Step 2.3: /DOC CHAT APP/ start index.html
+		Step 2.4: Replace the local host link at Doc-Chat and Need a consultant? buttons
+	Step 3: Now run / start index.html
 
-## Introduction
-In this tutorial we will build a decentralized chat application on Avalanche's Fuji test-network from scratch. The dApp will allow users to connect with other people and chat with them. We will develop our smart contract using Solidity which will be deployed on Avalanche's C-chain. We will have a basic, easy-to-use UI developed using ReactJS. So, let us begin!
 
-## Prerequisites
-
-* Basic familiarity with Reactjs and Solidity
-* Should've completed [Deploy a Smart Contract on Avalanche using Remix and MetaMask](https://learn.figment.io/network-documentation/avalanche/tutorials/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask) tutorial
 
 ## Requirements
 
@@ -27,9 +28,6 @@ We will define 3 functions :
 
 * The `getUsername(pubkey)` function will return the username of the given user if it exists.
 
-### Adding friends
-
-Here also we will define 3 functions :
 
 * The `checkAlreadyFriends(pubkey1, pubkey2)` function checks whether two users are already friends with each other or not. This is needed to prevent duplicate channel between the same parties and will also be used to prevent a user from sending messages to other users unless they are friends.
 
